@@ -1,9 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/kimkirok/projects/wandb/DAwandb/main.py", line 143, in <module>
-    main()
-  File "/Users/kimkirok/projects/wandb/DAwandb/main.py", line 139, in main
-    run(opt)
-  File "/Users/kimkirok/projects/wandb/DAwandb/main.py", line 25, in run
-    cfg=wandb_logging.cfg
-        ^^^^^^^^^^^^^^^^^
-AttributeError: 'function' object has no attribute 'cfg'
