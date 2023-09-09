@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/Users/kimkirok/projects/wandb/DAwandb/main.py", line 143, in <module>
+    main()
+  File "/Users/kimkirok/projects/wandb/DAwandb/main.py", line 138, in main
+    wandb_logging(opt)
+  File "/Users/kimkirok/projects/wandb/DAwandb/modules/wandb_logging.py", line 11, in wandb_logging
+    "epochs": args.epochs,
+              ^^^^^^^^^^^
+AttributeError: 'Namespace' object has no attribute 'epochs'
