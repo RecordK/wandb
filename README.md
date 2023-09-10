@@ -59,16 +59,19 @@ Wi
     - Wi
         
         ```bash
-        	# Wi(powershell)
+        # Wi(powershell)
         > python get-pip.py
         > pip install --upgrade pip
         ```
         
 
-## 3. 설치(간단)
+## 3. 설치(예제파일+)
 
 ```bash
-pip3 install DAwandb
+mkdir wandb
+cd wandb
+git clone https://github.com/RecordK/wandb.git
+cd wandb
 pip3 install -r requirements.txt
 ```
 ## 예시파일 실행
