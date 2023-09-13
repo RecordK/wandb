@@ -16,7 +16,7 @@ parser.add_argument('--epoch', type=int, default=5, help='the number of epochs t
 parser.add_argument('--lr', type=float, default=1e-3, help='learning rate')  # [0.001, 0.0005, 0.0001]
 parser.add_argument('--project_name', type=str, default='DA', help='project name on wandb')
 parser.add_argument('--task_name', type=str, default='first', help='experiment name on wandb')
-parser.add_argument('--entity', type=str, default='', help='entity on wandb')
+# parser.add_argument('--entity', type=str, default='', help='entity on wandb')
 parser.add_argument('--model', type=str, default='1', help='model')
 
 
