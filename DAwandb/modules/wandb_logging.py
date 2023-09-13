@@ -8,7 +8,7 @@ def wandb_logging(args):
         # 기존에 등록된 project가 있으면 같은 project끼리 묶어 실험 결과를 비교
         project=args.project_name,
         name=args.task_name,
-        entity=args.entity
+        # entity=args.entity
         # notes="baseline",
         # tags=["custom loss", "custom optimizer"],
     )
